@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: BASKETSERVICE
+  data:
+    mongodb:
+      uri: mongodb+srv://abhey743_db_user:eO1hGvCJeJVkgXTa@cluster0.yibflne.mongodb.net/?appName=Cluster0
+      database: Products
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  http2:
+    enabled: false
+  port: 8086
