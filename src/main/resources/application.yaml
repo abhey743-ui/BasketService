@@ -13,6 +13,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: https://eurekaserverservice.onrender.com/eureka
+  instance:
+    prefer-ip-address: true    
 
 server:
   http2:
